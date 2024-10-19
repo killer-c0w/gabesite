@@ -1,4 +1,5 @@
 body{
+	background-attachment: fixed;
 	background: #16222A;  /* fallback for old browsers */
 	background: -webkit-linear-gradient(to top, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to top, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -6,14 +7,16 @@ body{
 }
 
 .text-bubble {
-    position: relative; /* To position pseudo-elements */
-    display: inline-block;
-    padding: 10px 15px; /* Adjust padding as needed */
-    border-radius: 15px; /* Rounded edges */
-    background-color: #ffffff; /* Solid background for the middle */
-    color: #333; /* Text color */
-    font-size: 16px; /* Font size */
-    margin: 10px; /* Spacing between bubbles */
-    overflow: hidden; /* Ensure no overflow */
+
+	position: relative; /* For positioning the pseudo-element */
+	display: inline-block;
+	padding: 15px 20px; /* Adjust padding as needed */
+	border-radius: 15px; /* Rounded edges */
+	background-color: rgba(255, 255, 255, 0.85); /* Solid background for the middle with slight transparency */
+	color: #16222A; /* Dark text color for readability */
+	font-size: 16px; /* Font size */
+	margin: 10px; /* Spacing between bubbles */
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+
 }
 
