@@ -1,4 +1,12 @@
+
+html, body {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    height: 100%; /* Make sure body takes the full height */
+}
+
 .background_content{
+	height: 100%;
 	background-attachment: fixed;
 	background: #16222A;  /* fallback for old browsers */
 	background: linear-gradient(to top, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
