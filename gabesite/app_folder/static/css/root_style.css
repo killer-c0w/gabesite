@@ -1,7 +1,6 @@
 body{
 	background-attachment: fixed;
 	background: #16222A;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to top, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to top, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
@@ -19,4 +18,15 @@ body{
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
 
 }
-
+/* Pseudo-element for blending effect */
+.text-bubble::before {
+    content: '';
+    position: absolute;
+    top: -5px; /* Adjust as necessary */
+    left: -5px; /* Adjust as necessary */
+    right: -5px; /* Adjust as necessary */
+    bottom: -5px; /* Adjust as necessary */
+    border-radius: 15px; /* Match the main bubble's border-radius */
+    background: rgba(58, 96, 115, 0.4); /* Semi-transparent color to blend with the gradient */
+    z-index: -1; /* Send behind the text bubble */
+}
