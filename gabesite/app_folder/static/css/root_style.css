@@ -5,5 +5,14 @@ body{
 	background-size: 24px 24px;
 }
 
-
+.text-bubble {
+	background-color: rgba(255, 255, 255, 0.9); /* Soft white with slight transparency */
+	border-radius: 20px; /* Rounded edges for the bubble effect */
+	padding: 15px 25px; /* Space inside the bubble */
+	border: 1px solid #d3d3e7; /* Light border to blend with the background */
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+	display: inline-block;
+	max-width: 80%; /* Optional: Control bubble width */
+	margin-bottom: 20px; /* Spacing between bubbles */
+  }
 
