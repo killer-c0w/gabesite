@@ -3,32 +3,11 @@ html{
 	height: 100%;
 	background-attachment: fixed;
 	background: #16222A;  /* fallback for old browsers */
-	background: linear-gradient(to top, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: linear-gradient(to bottom, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
-.text-bubble {
-
-	position: relative; /* For positioning the pseudo-element */
-	display: inline-block;
-	padding: 15px 20px; /* Adjust padding as needed */
-	border-radius: 15px; /* Rounded edges */
-	background-color: rgba(255, 255, 255, 0.85); /* Solid background for the middle with slight transparency */
-	color: #16222A; /* Dark text color for readability */
-	font-size: 16px; /* Font size */
-	margin: 10px; /* Spacing between bubbles */
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
-
-}
-/* Pseudo-element for blending effect */
-.text-bubble::before {
-    content: '';
-    position: absolute;
-    top: -5px; /* Adjust as necessary */
-    left: -5px; /* Adjust as necessary */
-    right: -5px; /* Adjust as necessary */
-    bottom: -5px; /* Adjust as necessary */
-    border-radius: 15px; /* Match the main bubble's border-radius */
-    background: rgba(58, 96, 115, 0.4); /* Semi-transparent color to blend with the gradient */
-    z-index: -1; /* Send behind the text bubble */
+.body_content{
+	text-align : center;
+	
 }
