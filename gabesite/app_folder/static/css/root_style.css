@@ -1,13 +1,19 @@
 
 html{
+
 	height: 100%;
 	background-attachment: fixed;
 	background: #16222A;  /* fallback for old browsers */
 	background: linear-gradient(to bottom, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
+.background_content{
+	display: flex;
+	flex-direction: column;
+	flex : 1;
 
+}
 .body_content{
 	text-align : center;
-	
+
 }
