@@ -24,3 +24,10 @@ body {
 footer {
 	text-align: center;
 }
+/* Dynamic sticky footer - if content is small, footer sticks at the bottom */
+body::after {
+	content: "";
+	display: block;
+	flex-shrink: 0;
+	height: 40px; /* Adjust to the height of your footer */
+}
