@@ -10,10 +10,13 @@ html{
 .background_content{
 	display: flex;
 	flex-direction: column;
-	flex : 1;
 
 }
 .body_content{
 	text-align : center;
+	flex : 1;
+}
 
+footer {
+	text-align: center;
 }
