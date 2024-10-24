@@ -14,6 +14,8 @@ main{
 body {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
+
 }
 .background_content{
 	display: flex;
@@ -38,7 +40,6 @@ body::after {
 .nav_bar ul{
 	display : flex;
 	flex-direction: row;
-	align-items: center;
 	list-style-type: none;
 	padding: 0px;
 	margin : 0px;
