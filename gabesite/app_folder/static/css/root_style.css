@@ -43,9 +43,12 @@ body::after {
 	list-style-type: none;
 	padding: 0px;
 	margin : 0px;
+	gap: 60px;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
 }
 
 .nav_bar a{
-	color :rgb(96, 96, 96);
-	padding : 15px;
+	color :rgb(50, 50, 50);
+	padding : 60px;
 }
