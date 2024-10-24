@@ -10,11 +10,14 @@ html, body{
 main{
 	margin : 20px;
 }
+
 body {
 	display: flex;
 	flex-direction: column;
 }
-
+header {
+	display:inline-block;
+}
 .background_content{
 	display: flex;
 	flex-direction: column;	
