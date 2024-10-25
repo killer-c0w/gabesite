@@ -52,6 +52,6 @@ body::after {
 	color :rgb(50, 50, 50);
 	padding : 60px;
 }
-.nav_content a:hover{
+.nav_bar a:hover{
 	background-color: gray;
 }
