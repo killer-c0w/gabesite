@@ -28,6 +28,7 @@ body {
 
 footer {
 	text-align: center;
+	text-decoration: none;
 }
 /* Dynamic sticky footer - if content is small, footer sticks at the bottom */
 body::after {
@@ -51,6 +52,8 @@ body::after {
 .nav_bar a{
 	color :rgb(50, 50, 50);
 	padding : 60px;
+	text-decoration: none;
+
 }
 .nav_bar li:hover{
 	background-color: gray;
