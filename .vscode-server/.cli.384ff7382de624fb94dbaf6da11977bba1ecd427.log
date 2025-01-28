@@ -1,0 +1,8 @@
+Listening on 127.0.0.1:39039
+[2024-10-27 06:26:31] info Disposed of connection to running server.
+looking for token f43f337c-e2db-4e96-b6b1-a74e7d321db7, got Some("f43f337c-e2db-4e96-b6b1-a74e7d321db7")
+[2024-10-27 06:26:31] info Checking /home/gabe/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/log.txt and /home/gabe/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/pid.txt for a running server...
+[2024-10-27 06:26:31] info Downloading Visual Studio Code server -> /tmp/.tmpCu9PwH/vscode-server-linux-x64.tar.gz
+[2024-10-27 06:26:35] info Starting server...
+[2024-10-27 06:26:35] info Server started
+[2024-10-27 06:26:58] info Disposed of connection to running server.
