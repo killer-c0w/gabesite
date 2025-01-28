@@ -1,9 +1,0 @@
-{
-    "workbench.colorTheme": "Abyss",
-    "files.autoSave": "onFocusChange",
-    "editor.fontSize": 18,
-    "editor.cursorStyle": "block",
-    "remote.SSH.remotePlatform": {
-        "gabesite.dev": "linux"
-    }
-}
