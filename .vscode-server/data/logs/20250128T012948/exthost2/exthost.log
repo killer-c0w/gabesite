@@ -12,3 +12,7 @@
 [2025-01-28 01:30:55.039] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
 [2025-01-28 01:32:22.838] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 10001
 [2025-01-28 01:32:38.075] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 12037
+[2025-01-28 01:33:00.664] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 2037
+[2025-01-28 01:33:20.253] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 2037
+[2025-01-28 01:34:02.143] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+[2025-01-28 01:34:06.086] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'

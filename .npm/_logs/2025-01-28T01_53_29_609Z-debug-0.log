@@ -1,0 +1,21 @@
+0 verbose cli /home/gabe/.nvm/versions/node/v22.13.1/bin/node /home/gabe/.nvm/versions/node/v22.13.1/bin/npm
+1 info using npm@11.0.0
+2 info using node@v22.13.1
+3 silly config load:file:/home/gabe/.nvm/versions/node/v22.13.1/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/gabe/gabesite/app_folder/frontend/.npmrc
+5 silly config load:file:/home/gabe/.npmrc
+6 silly config load:file:/home/gabe/.nvm/versions/node/v22.13.1/etc/npmrc
+7 verbose title npm ls react
+8 verbose argv "ls" "react"
+9 verbose logfile logs-max:10 dir:/home/gabe/.npm/_logs/2025-01-28T01_53_29_609Z-
+10 verbose logfile /home/gabe/.npm/_logs/2025-01-28T01_53_29_609Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 silly packumentCache heap:516947968 maxSize:129236992 maxEntrySize:64618496
+14 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+15 verbose cwd /home/gabe/gabesite/app_folder/frontend
+16 verbose os Linux 6.8.0-41-generic
+17 verbose node v22.13.1
+18 verbose npm  v11.0.0
+19 verbose exit 0
+20 info ok

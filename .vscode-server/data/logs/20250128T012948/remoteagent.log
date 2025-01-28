@@ -11,3 +11,21 @@
 [2025-01-28 01:30:35.015] [remoteagent] [info] [127.0.0.1][b8801306][ExtensionHostConnection] New connection established.
 [2025-01-28 01:30:35.041] [remoteagent] [info] [127.0.0.1][b8801306][ExtensionHostConnection] <2485358> Launched Extension Host Process.
 [2025-01-28 01:30:40.170] [remoteagent] [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/gabe)
+[2025-01-28 01:35:34.589] [remoteagent] [info] New EH opened, aborting shutdown
+[2025-01-28 01:52:16.531] [remoteagent] [error] Error: connect ECONNREFUSED 127.0.0.1:5173
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)
+[2025-01-28 01:52:53.050] [remoteagent] [error] Error: connect ECONNREFUSED 127.0.0.1:5173
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)
+[2025-01-28 01:54:28.718] [remoteagent] [error] Error: connect ECONNREFUSED 127.0.0.1:5173
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)
+[2025-01-28 02:09:51.848] [remoteagent] [info] [127.0.0.1][28164cd2][ManagementConnection] New connection established.
+[2025-01-28 02:09:51.929] [remoteagent] [info] [127.0.0.1][e77c80bb][ExtensionHostConnection] New connection established.
+[2025-01-28 02:09:51.955] [remoteagent] [info] [127.0.0.1][e77c80bb][ExtensionHostConnection] <2490540> Launched Extension Host Process.
+[2025-01-28 02:09:52.691] [remoteagent] [info] [127.0.0.1][807d0794][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2025-01-28 02:09:52.697] [remoteagent] [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/gabe/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/out/vs/server/node/server.main.js:145:7922)
+    at process.emit (node:events:390:28)
+[2025-01-28 02:10:05.941] [remoteagent] [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/gabe)
+[2025-01-28 02:10:13.618] [remoteagent] [info] [127.0.0.1][807d0794][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2025-01-28 02:10:14.655] [remoteagent] [error] Error: connect ECONNREFUSED 127.0.0.1:5173
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)
