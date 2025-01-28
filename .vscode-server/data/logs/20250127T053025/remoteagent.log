@@ -1,0 +1,134 @@
+2025-01-27 05:30:25.104 [info] 
+
+
+
+
+2025-01-27 05:30:25.116 [info] Extension host agent started.
+2025-01-27 05:30:25.224 [info] [<unknown>][dfb29314][ManagementConnection] New connection established.
+2025-01-27 05:30:25.226 [info] [<unknown>][85612a9a][ExtensionHostConnection] New connection established.
+2025-01-27 05:30:25.437 [info] [<unknown>][85612a9a][ExtensionHostConnection] <2451511> Launched Extension Host Process.
+2025-01-27 05:35:25.122 [info] New EH opened, aborting shutdown
+2025-01-27 20:05:07.824 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 20:06:01.706 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 20:09:33.890 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 20:10:27.866 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 20:10:37.435 [info] [<unknown>][85612a9a][ExtensionHostConnection] The client has reconnected.
+2025-01-27 20:10:38.359 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 20:11:06.213 [info] [<unknown>][85612a9a][ExtensionHostConnection] The client has reconnected.
+2025-01-27 20:11:18.233 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 20:11:27.301 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 20:11:39.758 [info] [<unknown>][85612a9a][ExtensionHostConnection] The client has reconnected.
+2025-01-27 20:12:05.402 [info] [<unknown>][85612a9a][ExtensionHostConnection] The client has reconnected.
+2025-01-27 20:12:31.430 [info] [<unknown>][85612a9a][ExtensionHostConnection] The client has reconnected.
+2025-01-27 20:12:40.480 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 20:12:55.491 [info] [<unknown>][85612a9a][ExtensionHostConnection] The client has reconnected.
+2025-01-27 20:13:20.649 [info] [<unknown>][85612a9a][ExtensionHostConnection] The client has reconnected.
+2025-01-27 20:13:47.606 [info] [<unknown>][85612a9a][ExtensionHostConnection] The client has reconnected.
+2025-01-27 20:14:00.468 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 20:14:17.110 [info] [<unknown>][85612a9a][ExtensionHostConnection] The client has reconnected.
+2025-01-27 20:14:51.157 [info] [<unknown>][85612a9a][ExtensionHostConnection] The client has reconnected.
+2025-01-27 20:15:26.248 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 20:15:37.307 [info] [<unknown>][85612a9a][ExtensionHostConnection] The client has reconnected.
+2025-01-27 20:16:02.229 [info] [<unknown>][85612a9a][ExtensionHostConnection] The client has reconnected.
+2025-01-27 20:16:27.968 [info] [<unknown>][85612a9a][ExtensionHostConnection] The client has reconnected.
+2025-01-27 20:17:24.462 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 20:18:38.512 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 20:20:19.336 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 20:25:18.704 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 20:28:03.349 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 20:30:50.388 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 20:35:05.422 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 20:35:53.434 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 20:36:23.744 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 20:40:06.302 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 20:49:03.674 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 21:01:59.491 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (file:///home/gabe/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/server-main.js:184:1060)
+    at process.emit (node:events:530:35)
+2025-01-27 21:02:03.041 [info] [<unknown>][dfb29314][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-01-27 21:02:05.361 [error] CodeExpectedError: Could not find pty 2 on pty host
+    at I.W (file:///home/gabe/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/platform/terminal/node/ptyHostMain.js:48:12233)
+    at I.updateIcon (file:///home/gabe/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/platform/terminal/node/ptyHostMain.js:48:7772)
+    at N.s.<computed> (file:///home/gabe/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/platform/terminal/node/ptyHostMain.js:48:2962)
+    at Object.call (file:///home/gabe/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/platform/terminal/node/ptyHostMain.js:31:4203)
+    at Jc.s (file:///home/gabe/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78968)
+    at Jc.q (file:///home/gabe/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78491)
+    at us.value (file:///home/gabe/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/platform/terminal/node/ptyHostMain.js:29:77893)
+    at C.B (file:///home/gabe/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/platform/terminal/node/ptyHostMain.js:29:746)
+    at C.fire (file:///home/gabe/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/platform/terminal/node/ptyHostMain.js:29:964)
+    at process.w (file:///home/gabe/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29142)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2025-01-27 21:02:08.396 [error] CodeExpectedError: Could not find pty 2 on pty host
+    at I.W (file:///home/gabe/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/platform/terminal/node/ptyHostMain.js:48:12233)
+    at I.updateTitle (file:///home/gabe/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/platform/terminal/node/ptyHostMain.js:48:7722)
+    at N.s.<computed> (file:///home/gabe/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/platform/terminal/node/ptyHostMain.js:48:2962)
+    at Object.call (file:///home/gabe/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/platform/terminal/node/ptyHostMain.js:31:4203)
+    at Jc.s (file:///home/gabe/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78968)
+    at Jc.q (file:///home/gabe/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78491)
+    at us.value (file:///home/gabe/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/platform/terminal/node/ptyHostMain.js:29:77893)
+    at C.B (file:///home/gabe/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/platform/terminal/node/ptyHostMain.js:29:746)
+    at C.fire (file:///home/gabe/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/platform/terminal/node/ptyHostMain.js:29:964)
+    at process.w (file:///home/gabe/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29142)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2025-01-27 21:02:09.362 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 21:05:28.444 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 21:10:01.774 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 21:10:58.113 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 21:11:52.223 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 21:14:01.144 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 21:20:35.771 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 21:21:08.701 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 21:28:12.973 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 21:29:46.364 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 21:30:40.047 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 21:32:22.740 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 21:36:42.396 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 21:37:39.582 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 21:38:27.325 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 21:40:00.413 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 21:40:48.346 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 21:41:41.580 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 21:41:52.514 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 21:44:30.060 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 21:44:42.255 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 21:45:58.888 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 21:46:18.178 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 21:46:38.991 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 21:46:50.615 [error] No ptyHost heartbeat after 12 seconds
+2025-01-27 21:47:28.344 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 21:49:18.461 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 21:49:33.386 [error] No ptyHost heartbeat after 12 seconds
+2025-01-27 21:50:07.936 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 21:50:19.196 [error] No ptyHost heartbeat after 12 seconds
+2025-01-27 21:51:25.152 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 21:51:36.051 [error] No ptyHost heartbeat after 12 seconds
+2025-01-27 21:52:21.997 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 21:52:30.220 [error] No ptyHost heartbeat after 12 seconds
+2025-01-27 21:53:48.088 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 21:53:57.599 [error] No ptyHost heartbeat after 12 seconds
+2025-01-27 21:54:09.839 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 21:55:04.245 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 21:56:25.486 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 21:57:23.616 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 21:58:21.953 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 21:58:37.368 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 22:00:00.789 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 22:00:15.289 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 22:01:06.034 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 22:02:04.217 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 22:02:12.865 [error] No ptyHost heartbeat after 12 seconds
+2025-01-27 22:03:02.781 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 22:05:55.164 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 22:07:23.118 [error] No ptyHost heartbeat after 12 seconds
+2025-01-27 22:24:27.926 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 22:27:39.024 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 22:35:42.821 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 22:43:36.267 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-28 00:53:54.689 [info] [<unknown>][dfb29314][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+2025-01-28 00:56:25.934 [info] [<unknown>][85612a9a][ExtensionHostConnection] <2451511> Extension Host Process exited with code: 0, signal: null.
+2025-01-28 00:56:25.939 [info] Last EH closed, waiting before shutting down
+2025-01-28 01:01:25.946 [info] Last EH closed, shutting down

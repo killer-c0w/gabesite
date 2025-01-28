@@ -1,0 +1,16 @@
+2024-10-27 06:26:35.698 [info] 
+
+
+
+
+2024-10-27 06:26:35.709 [info] Extension host agent started.
+2024-10-27 06:26:35.760 [info] Started initializing default profile extensions in extensions installation folder. file:///home/gabe/.vscode-server/extensions
+2024-10-27 06:26:35.798 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/gabe/.vscode-server/extensions
+2024-10-27 06:26:35.838 [info] [<unknown>][26a03e35][ExtensionHostConnection] New connection established.
+2024-10-27 06:26:35.880 [info] [<unknown>][8f3854d9][ManagementConnection] New connection established.
+2024-10-27 06:26:35.941 [info] [<unknown>][26a03e35][ExtensionHostConnection] <469638> Launched Extension Host Process.
+2024-10-27 06:26:58.578 [info] [<unknown>][8f3854d9][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-10-27 06:26:58.620 [info] [<unknown>][26a03e35][ExtensionHostConnection] <469638> Extension Host Process exited with code: 0, signal: null.
+2024-10-27 06:26:58.620 [info] Cancelling previous shutdown timeout
+2024-10-27 06:26:58.621 [info] Last EH closed, waiting before shutting down
+2024-10-27 06:31:58.626 [info] Last EH closed, shutting down

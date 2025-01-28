@@ -1,0 +1,14 @@
+[2025-01-28 01:30:36.729] [exthost] [info] Extension host with pid 2485358 started
+[2025-01-28 01:30:36.754] [exthost] [info] Lock '/home/gabe/.vscode-server/data/User/workspaceStorage/a723edadd372096c6d1ed4145dd6f8e0/vscode.lock': Lock acquired.
+[2025-01-28 01:30:36.879] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2025-01-28 01:30:36.896] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2025-01-28 01:30:36.909] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2025-01-28 01:30:37.051] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2025-01-28 01:30:37.302] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2025-01-28 01:30:37.642] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2025-01-28 01:30:37.720] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2025-01-28 01:30:37.729] [exthost] [info] Eager extensions activated
+[2025-01-28 01:30:51.882] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+[2025-01-28 01:30:55.039] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+[2025-01-28 01:32:22.838] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 10001
+[2025-01-28 01:32:38.075] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 12037
