@@ -16,3 +16,6 @@
 [2025-01-28 01:33:20.253] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 2037
 [2025-01-28 01:34:02.143] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
 [2025-01-28 01:34:06.086] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+[2025-01-28 02:14:52.266] [exthost] [info] Extension host terminating: renderer disconnected for too long (2)
+[2025-01-28 02:14:52.282] [exthost] [info] Lock '/home/gabe/.vscode-server/data/User/workspaceStorage/a723edadd372096c6d1ed4145dd6f8e0/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2025-01-28 02:14:52.634] [exthost] [info] Extension host with pid 2485358 exiting with code 0
